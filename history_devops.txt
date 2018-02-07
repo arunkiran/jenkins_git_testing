@@ -1,0 +1,290 @@
+    1  clear
+    2  history
+    3  whereis java
+    4  java -version
+    5  add-apt-repository ppa:webupd8team/java
+    6  apt-get update
+    7  apt-get install oracle-java8-installer
+    8  lsof /var/lib/dpkg/lock
+    9  apt-key adv --recv-keys --keyserver .ubuntu.com 2EBC26B60C5A2783
+   10  apt-key adv --recv-keys --keyserver.ubuntu.com 2EBC26B60C5A2783
+   11  apt-key adv --recv-keys --keyserver.ubuntu.com 0C5A2783
+   12  apt-key adv --recv-keys --keyserver .ubuntu.com 0C5A2783
+   13  clear
+   14  ps aux | grep apt
+   15  ps -e | grep -e apt -e adept | grep -v grep
+   16  apt-get update
+   17  apt-get install oracle-java8-installer
+   18  whereis java
+   19  java -version
+   20  apt-get install oracle-java8-set-default
+   21  cat >> /etc/environment <<EOL
+   22  JAVA_HOME=/usr/lib/jvm/java-8-oracle
+   23  JRE_HOME=/usr/lib/jvm/java-8-oracle/jre
+   24  EOL
+   25  apt-get update
+   26  reboot
+   27  add-apt-repository ppa:git-core/ppa
+   28  apt-get update
+   29  apt-get install git
+   30  git --version
+   31  history
+   32  echo $JAVA_HOME
+   33  echo $JRE_HOME
+   34  clear
+   35  cd /opt
+   36  apt-get install maven
+   37  mvn -version
+   38  ll
+   39  apt-cache search maven
+   40  clear
+   41  apt-get update
+   42  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+   43  wget -q -o -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+   44  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+   45  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add - OK
+   46  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -OK
+   47  clear
+   48  apt-get upgrade
+   49  clear
+   50  apt-get update -y
+   51  apt-get update
+   52  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -[B
+   53  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add - OK
+   54  logout
+   55  clear
+   56  logout
+   57  sudo arunkiran
+   58  sudo kiran
+   59  sudo arun
+   60  sudo --arun
+   61  sudo -arun
+   62  clear
+   63  exit
+   64  gedit
+   65  wget --no-check-certificate -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+   66  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+   67  apt-get udate 
+   68  apt-get update
+   69  apt-get install jenkins
+   70  ll
+   71  systemctl start jenkins
+   72  systemctl status jenkins
+   73  ufw allow 8080
+   74  ufw status
+   75  ufw allow 8080
+   76  ufw status
+   77  ufw allow OpenSSH
+   78  ufw enable
+   79  ufw status
+   80  history
+   81  cat /var/lib/jenkins/secrets/initialAdminPassword
+   82  gedit
+   83  history >> 1.txt
+   84  gedit 1.txt
+   85  git init
+   86  git status
+   87  git add 1.txt
+   88  git commit -m "history commands"
+   89  git config --global user.name "arunkiran"
+   90  git config --global user.email "kiran.arun22@gmail.com"
+   91  git commit -m "history commands"
+   92  git push origin master
+   93  exit
+   94  gedit /var/lib/jenkins/secrets/intialAdminPassword
+   95  cat /var/lib/jenkins/secrets/intialAdminPassword
+   96  gedit /var/lib/jenkins/secrets/initialAdminPassword
+   97  git -version
+   98  git
+   99  git --version
+  100  mvn -version
+  101  java -version
+  102  jenkins -version
+  103  jenkins
+  104  clear
+  105  history
+  106  gedit
+  107  clear
+  108  cd /home
+  109  cd /desktop
+  110  cd /desktops
+  111  cd /opt
+  112  ll
+  113  clear
+  114  cd /home/ec2-user
+  115  cd /home
+  116  clear
+  117  ll
+  118  cd arunkiran
+  119  ll
+  120  mkdir Devopspractise
+  121  cd Devopspractise/
+  122  clear
+  123  git init
+  124  ll
+  125  1  clear
+  126  clear
+  127  history
+  128  mkdir SampleTest
+  129  cd SampleTest/
+  130  clear
+  131  mvn archetype:generate -DgroupId=com.git.testing -DartifactId=SampleTest -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+  132  git status
+  133  cd ..
+  134  git status
+  135  ll
+  136  git add.
+  137  git add .
+  138  git status
+  139  git commit -m "Jenkins Testing with Local Repo"
+  140  git status
+  141  history >> history_devops.txt
+    1  clear
+    2  history
+    3  whereis java
+    4  java -version
+    5  add-apt-repository ppa:webupd8team/java
+    6  apt-get update
+    7  apt-get install oracle-java8-installer
+    8  lsof /var/lib/dpkg/lock
+    9  apt-key adv --recv-keys --keyserver .ubuntu.com 2EBC26B60C5A2783
+   10  apt-key adv --recv-keys --keyserver.ubuntu.com 2EBC26B60C5A2783
+   11  apt-key adv --recv-keys --keyserver.ubuntu.com 0C5A2783
+   12  apt-key adv --recv-keys --keyserver .ubuntu.com 0C5A2783
+   13  clear
+   14  ps aux | grep apt
+   15  ps -e | grep -e apt -e adept | grep -v grep
+   16  apt-get update
+   17  apt-get install oracle-java8-installer
+   18  whereis java
+   19  java -version
+   20  apt-get install oracle-java8-set-default
+   21  cat >> /etc/environment <<EOL
+   22  JAVA_HOME=/usr/lib/jvm/java-8-oracle
+   23  JRE_HOME=/usr/lib/jvm/java-8-oracle/jre
+   24  EOL
+   25  apt-get update
+   26  reboot
+   27  add-apt-repository ppa:git-core/ppa
+   28  apt-get update
+   29  apt-get install git
+   30  git --version
+   31  history
+   32  echo $JAVA_HOME
+   33  echo $JRE_HOME
+   34  clear
+   35  cd /opt
+   36  apt-get install maven
+   37  mvn -version
+   38  ll
+   39  apt-cache search maven
+   40  clear
+   41  apt-get update
+   42  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+   43  wget -q -o -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+   44  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+   45  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add - OK
+   46  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -OK
+   47  clear
+   48  apt-get upgrade
+   49  clear
+   50  apt-get update -y
+   51  apt-get update
+   52  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -[B
+   53  wget -q -O -https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add - OK
+   54  logout
+   55  clear
+   56  logout
+   57  sudo arunkiran
+   58  sudo kiran
+   59  sudo arun
+   60  sudo --arun
+   61  sudo -arun
+   62  clear
+   63  exit
+   64  gedit
+   65  wget --no-check-certificate -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+   66  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+   67  apt-get udate 
+   68  apt-get update
+   69  apt-get install jenkins
+   70  ll
+   71  systemctl start jenkins
+   72  systemctl status jenkins
+   73  ufw allow 8080
+   74  ufw status
+   75  ufw allow 8080
+   76  ufw status
+   77  ufw allow OpenSSH
+   78  ufw enable
+   79  ufw status
+   80  history
+   81  cat /var/lib/jenkins/secrets/initialAdminPassword
+   82  gedit
+   83  history >> 1.txt
+   84  gedit 1.txt
+   85  git init
+   86  git status
+   87  git add 1.txt
+   88  git commit -m "history commands"
+   89  git config --global user.name "arunkiran"
+   90  git config --global user.email "kiran.arun22@gmail.com"
+   91  git commit -m "history commands"
+   92  git push origin master
+   93  exit
+   94  gedit /var/lib/jenkins/secrets/intialAdminPassword
+   95  cat /var/lib/jenkins/secrets/intialAdminPassword
+   96  gedit /var/lib/jenkins/secrets/initialAdminPassword
+   97  git -version
+   98  git
+   99  git --version
+  100  mvn -version
+  101  java -version
+  102  jenkins -version
+  103  jenkins
+  104  clear
+  105  history
+  106  gedit
+  107  clear
+  108  cd /home
+  109  cd /desktop
+  110  cd /desktops
+  111  cd /opt
+  112  ll
+  113  clear
+  114  cd /home/ec2-user
+  115  cd /home
+  116  clear
+  117  ll
+  118  cd arunkiran
+  119  ll
+  120  mkdir Devopspractise
+  121  cd Devopspractise/
+  122  clear
+  123  git init
+  124  ll
+  125  1  clear
+  126  clear
+  127  history
+  128  mkdir SampleTest
+  129  cd SampleTest/
+  130  clear
+  131  mvn archetype:generate -DgroupId=com.git.testing -DartifactId=SampleTest -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+  132  git status
+  133  cd ..
+  134  git status
+  135  ll
+  136  git add.
+  137  git add .
+  138  git status
+  139  git commit -m "Jenkins Testing with Local Repo"
+  140  git status
+  141  history >> history_devops.txt
+  142  ll
+  143  cat history_devops.txt 
+  144  whereis git
+  145  git config --global user.name "arunkiran"
+  146  git config --global user.email "kiran.arun22@gmail.com"
+  147  git config --list
+  148  apt-get update
+  149  history >> history_devops.txt
